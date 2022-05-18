@@ -2,24 +2,21 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+        backgroundImage : {
+          'intro' : "url('/public/images/page_title.jpg')",
+        },
+        animation : {
+          'spin-slow' : 'spin 10s linear infinite'
+        },
       colors: {
-        blue : {
-          500 : '#3DB0FF',
-          700 : '#081494',
-          800 : '#0A043C',
-          900 : '#272262',
-        },
-        gray : {
-          300 : '#727E8C',
-          400 : '#BFBFBF',
-          500 : '#82869A',
-          600 : '#282C40',
-          700 : `#8C8C8C`,
-          800 : '#373C56',
-          900 : '#304156',
-        },
         green : {
-          200 : '#F9F9F9'
+          200 : '#00a398'
+        },
+        orange : {
+          500 : '#FF5100'
+        },
+        yellow : {
+          500 : '#e9b947',
         }
       }
     },

@@ -1,3 +1,6 @@
 export enum routes {
-    HOME='/'
+    HOME='/',
+    CONTACT='/contact',
+    ABOUT='/about',
+    PRODUCT='/product',
 }
